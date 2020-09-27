@@ -12,7 +12,7 @@ public class FamilyLabMainController {
 	
 	@RequestMapping("/memberLogin")
 	public String homePage(HttpServletRequest request,Model model) {
-		model.addAttribute("username1",request.getParameter("username")); //GitClone
+		model.addAttribute("username1",request.getParameter("username")); //GitClone cvfxv
 		return "loggedinhomepage";
 	}
 	
